@@ -1,0 +1,18 @@
+DIGITAL LOCK ASIC - OPT7
+Technology: SKY130HD
+Clock period constraint: 10 ns
+
+Functional simulation:
+All four password tests passed.
+System locks after three incorrect attempts.
+
+Final standard-cell area: 589.315 um^2
+Final GDS: Final_Outputs/6_final.gds
+
+Dedicated 16-corner STA:
+Minimum setup slack: approximately +0.0733 ns
+Minimum hold slack: approximately +0.12 ns
+STA uses estimated global-routing parasitics.
+Setup margin is narrow; results are not signoff timing.
+
+See STA_Reports and OpenROAD for the detailed reports.
